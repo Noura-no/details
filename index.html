@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="list.png">
+    <link rel="stylesheet" media="(max-width:500px)" href="mobilescreen.css">
+    <link rel="stylesheet" media="(min-width:500px) and (max-width:1000px)" href="ipadscreen.css">
+    <link rel="icon" href="compact-car.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body id="body">
+    <div id="vector">
+        <img src="back.png" alt="vector">
+    </div>
+
+    <nav class="navbar">
+        <img id="logo" src="Logo.png" alt="Logo">
+        <div id="links">
+            <a href="../CarProject/index.html#fisrst-section">Home</a>
+            <a href="../CarProject/index.html#third-section">Catalogue</a>
+            <a href="../CarProject/index.html#footer">Contact Us</a>
+            <a href="#">Help</a>
+            <button id="dark"><img src="half-moon.png" alt=""></button>
+            <button id="light"><img src="contrast.png" alt=""></button>
+    
+    
+        </div>
+        <div id="cart">
+            <a href=""><img src="cart.png" alt="MyCart"></a>
+            <button id="b1" type="button">Register</button>
+        </div>
+
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+
+            <ul class="menu__box">
+
+                <li><a class="menu__item" href="#">Home</a></li>
+                <li><a class="menu__item" href="#">Catalogue</a></li>
+                <li><a class="menu__item" href="#">Contact Us</a></li>
+                <li><a class="menu__item" href="#">Help</a></li>
+
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div id="container">
+        <div id="right-content">
+            <div id="icons">
+                <p>Type</p>
+                <i class="fa">&#xf105;</i>
+                <p>Car</p>
+                <i class="fa">&#xf105;</i>
+                <h4>Details</h4>
+            </div>
+            <h1>Honda - Civic Type R</h1>
+            <h2>6000 cc</h2>
+            <img id="car" src="p-car.png" alt="car">
+        </div>
+            <div id="slider-container" class="slider">
+                <div class="slide">
+                    <img src="rect1.png" alt="audi">
+
+                </div>
+                <div class="slide">
+                    <img src="rect2.png" alt="bmw">
+
+                </div>
+                <div class="slide">
+                    <img src="rect3.png" alt="Bugatti">
+
+                </div>
+                <div class="slide">
+                    <img src="rect4.png" alt="marcedes">
+
+                </div>
+                <div class="slide">
+                    <img src="rect1.png" alt="marcedes">
+                </div>
+                <div class="slide">
+                    <img src="rect2.png" alt="car">
+                </div>
+
+            </div>
+
+
+            <div onclick="prev()" class="control-prev-btn">
+                <i class="fa">&#xf177;</i>
+            </div>
+            <div onclick="next()" class="control-next-btn">
+                <i class="fa">&#xf178;</i>
+            </div>
+       
+
+
+        <div id="content">
+            <h1>Details</h1>
+            <h2>Rating And Review</h2>
+            <form id="rating">
+                <input type="radio" name="rating" id="rating-1" value="1">
+                <label for="rating-1"></label>
+                <input type="radio" name="rating" id="rating-2" value="2">
+                <label for="rating-2"></label>
+                <input type="radio" name="rating" id="rating-3" value="3">
+                <label for="rating-3"></label>
+                <input type="radio" name="rating" id="rating-4" value="4">
+                <label for="rating-4"></label>
+                <input type="radio" name="rating" id="rating-5" value="5">
+                <label for="rating-5">4.5</label>
+            </form>
+
+            <h2>Description</h2>
+            <p>The culmimination of comfort,luxury,and powerrul living is<br> embodied
+                in the First-Ever BMWX7 -the biggest BMW ever built.</p>
+
+            <div id="set-color">
+                <h2>Color</h2>
+                <div id="circle">
+                    <button id="c1"></button>
+                    <button id="c2"></button>
+                    <button id="c3"></button>
+                </div>
+
+            </div>
+            <div id="last-d">
+                <div id="set-num">
+                    <button id="mins">-</button>
+                    <div id="counter">1</div>
+                    <button id="plus">+</button>
+                </div>
+                <div id="price">
+                    <h3>Price:</h3>
+                    <p id="price-change">250 $</p>
+                </div>
+            </div>
+
+            <div id="buttons">
+                <a href="../my cart/index.html"><button id="add">Add To Cart</button></a>
+                <button id="buy">Buy Now</button>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
